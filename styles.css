@@ -166,9 +166,14 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1920&h=1080&fit=crop') center/cover;
-    opacity: 0.2;
+    background-image: url('./shop-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
     animation: zoomIn 20s ease infinite;
+    z-index: 0;
 }
 
 @keyframes zoomIn {
@@ -182,7 +187,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .hero-content {
@@ -554,6 +560,24 @@ body {
 .contact-item p {
     color: var(--text-light);
     line-height: 1.8;
+}
+
+.map-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.map-link:hover {
+    color: var(--secondary-color);
+}
+
+.map-link i {
+    font-size: 0.8rem;
+    margin-left: 5px;
 }
 
 .contact-form {
