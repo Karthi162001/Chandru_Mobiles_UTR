@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chandru Mobile Shop - Premium mobile accessories and repair services">
+    <title>Chandru Mobile Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Chandru Mobile Shop</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="share-btn" onclick="shareWebsite()">
+                <i class="fas fa-share-alt"></i>
+                <span>Share</span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Chandru Mobile Shop</h1>
+            <p class="hero-subtitle">Your One-Stop Destination for Mobile Accessories & Repairs</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Premium quality mobile accessories at affordable prices</p>
+            
+            <!-- Headsets -->
+            <div class="product-category">
+                <h3 class="category-title">
+                    <i class="fas fa-headphones"></i>
+                    Headsets
+                </h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop" alt="Wireless Headphones">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Wireless Bluetooth Headphones</h4>
+                            <p class="product-price">₹1,299</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=400&h=400&fit=crop" alt="Earbuds">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>True Wireless Earbuds</h4>
+                            <p class="product-price">₹899</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=400&h=400&fit=crop" alt="Gaming Headset">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Gaming Headset with Mic</h4>
+                            <p class="product-price">₹1,599</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=400&h=400&fit=crop" alt="Sport Headphones">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Sports Wireless Headphones</h4>
+                            <p class="product-price">₹1,099</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Cases -->
+            <div class="product-category">
+                <h3 class="category-title">
+                    <i class="fas fa-mobile-alt"></i>
+                    Mobile Cases
+                </h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=400&fit=crop" alt="Phone Case">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Shockproof Back Cover</h4>
+                            <p class="product-price">₹299</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601972602237-8c79241e468b?w=400&h=400&fit=crop" alt="Clear Case">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Transparent Clear Case</h4>
+                            <p class="product-price">₹199</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=400&fit=crop" alt="Leather Case">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Premium Leather Case</h4>
+                            <p class="product-price">₹499</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601972602237-8c79241e468b?w=400&h=400&fit=crop" alt="Armor Case">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Armor Protection Case</h4>
+                            <p class="product-price">₹399</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screen Protectors (Tempers) -->
+            <div class="product-category">
+                <h3 class="category-title">
+                    <i class="fas fa-shield-alt"></i>
+                    Screen Protectors
+                </h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=400&fit=crop" alt="Tempered Glass">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>9H Tempered Glass</h4>
+                            <p class="product-price">₹149</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601972602237-8c79241e468b?w=400&h=400&fit=crop" alt="Privacy Screen">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Privacy Screen Protector</h4>
+                            <p class="product-price">₹249</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=400&fit=crop" alt="Anti-Glare">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Anti-Glare Screen Guard</h4>
+                            <p class="product-price">₹199</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1601972602237-8c79241e468b?w=400&h=400&fit=crop" alt="Full Coverage">
+                            <div class="product-overlay">
+                                <button class="btn-quick-view">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h4>Full Coverage Glass</h4>
+                            <p class="product-price">₹299</p>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Expert mobile repair services with warranty</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Display Repair</h3>
+                    <p>Professional screen replacement for all mobile brands. Original and compatible parts available.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Same-day service</li>
+                        <li><i class="fas fa-check"></i> 6 months warranty</li>
+                        <li><i class="fas fa-check"></i> All brands supported</li>
+                    </ul>
+                    <div class="service-price">Starting from ₹1,500</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Board Work</h3>
+                    <p>Expert motherboard repair and component replacement. Water damage recovery available.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Advanced diagnostics</li>
+                        <li><i class="fas fa-check"></i> Component-level repair</li>
+                        <li><i class="fas fa-check"></i> Data recovery</li>
+                    </ul>
+                    <div class="service-price">Starting from ₹2,000</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Battery Replacement</h3>
+                    <p>Genuine battery replacement with proper calibration. Improves device performance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Original batteries</li>
+                        <li><i class="fas fa-check"></i> 1 year warranty</li>
+                        <li><i class="fas fa-check"></i> Quick service</li>
+                    </ul>
+                    <div class="service-price">Starting from ₹800</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Camera Repair</h3>
+                    <p>Front and back camera replacement. Lens cleaning and calibration services.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> High-quality cameras</li>
+                        <li><i class="fas fa-check"></i> Focus calibration</li>
+                        <li><i class="fas fa-check"></i> Warranty included</li>
+                    </ul>
+                    <div class="service-price">Starting from ₹1,200</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Charging Port Repair</h3>
+                    <p>USB-C, Lightning, and Micro-USB port replacement. Fast charging restoration.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> All port types</li>
+                        <li><i class="fas fa-check"></i> Fast charging support</li>
+                        <li><i class="fas fa-check"></i> Quick fix</li>
+                    </ul>
+                    <div class="service-price">Starting from ₹600</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Software Services</h3>
+                    <p>OS updates, virus removal, data backup, and factory reset services.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Data backup</li>
+                        <li><i class="fas fa-check"></i> Virus removal</li>
+                        <li><i class="fas fa-check"></i> OS updates</li>
+                    </ul>
+                    <div class="service-price">Starting from ₹300</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Visit us or contact for inquiries</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Your Shop Address Here<br>City, State - PIN Code</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 XXXXX XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@chandrumobileshop.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 10:00 AM - 8:00 PM<br>Sunday: 11:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Chandru Mobile Shop</h3>
+                    <p>Your trusted partner for mobile accessories and repairs. Quality products and services guaranteed.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#products">Headsets</a></li>
+                        <li><a href="#products">Mobile Cases</a></li>
+                        <li><a href="#products">Screen Protectors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Display Repair</a></li>
+                        <li><a href="#services">Board Work</a></li>
+                        <li><a href="#services">Battery Replacement</a></li>
+                        <li><a href="#services">Camera Repair</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chandru Mobile Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Share Modal -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Share Our Website</h3>
+            <div class="share-options">
+                <button class="share-option" onclick="shareOnWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </button>
+                <button class="share-option" onclick="shareOnFacebook()">
+                    <i class="fab fa-facebook"></i>
+                    Facebook
+                </button>
+                <button class="share-option" onclick="copyLink()">
+                    <i class="fas fa-link"></i>
+                    Copy Link
+                </button>
+            </div>
+            <div class="share-url">
+                <input type="text" id="shareUrl" value="" readonly>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
